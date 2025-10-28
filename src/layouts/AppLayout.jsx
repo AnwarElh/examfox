@@ -48,7 +48,7 @@ export default function AppLayout() {
           <div className="text-slate-500 text-sm">Welcome back</div>
         </header>
 
-        <main className="p-4 md:p-8">
+        <main className="p-4 md:p-8 flex-1 overflow-y-auto ">
           <Outlet />
         </main>
       </div>

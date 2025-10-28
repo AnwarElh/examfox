@@ -169,7 +169,7 @@ export default function Landing() {
                 size="lg"
                 className="bg-white text-blue-600 hover:bg-blue-50 px-8 py-4 text-lg font-semibold rounded-xl shadow-xl hover:shadow-2xl transition-all duration-300"
               >
-                Get Started Free
+                Get Started for Free !
                 <ArrowRight className="w-5 h-5 ml-2" />
               </Button>
             </Link>
