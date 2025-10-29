@@ -160,8 +160,9 @@ Please format as JSON with this structure:
                     placeholder="Paste your study material, exam content, or any text you want to generate questions from..."
                     value={inputText}
                     onChange={(e) => setInputText(e.target.value)}
-                    className="min-h-[200px] resize-none"
+                    className="min-h-[200px] w-full text-base p-3 resize-y"
                   />
+
                 ) : (
                   <div className="border-2 border-dashed border-slate-300 rounded-xl p-8 text-center">
                     <Upload className="w-12 h-12 text-slate-400 mx-auto mb-4" />
